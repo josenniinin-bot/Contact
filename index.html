@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>Contáctanos</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; font-family: Arial, Helvetica, sans-serif;
+      color: #fff; background: linear-gradient(145deg, #111827, #263449);
+    }
+    main {
+      width: min(100%, 420px); padding: 34px 25px; text-align: center;
+      background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16);
+      border-radius: 25px; box-shadow: 0 18px 55px rgba(0,0,0,.28);
+    }
+    .mark { font-size: 42px; margin-bottom: 12px; }
+    h1 { margin: 0 0 10px; font-size: 30px; }
+    p { margin: 0 0 28px; color: #d1d5db; line-height: 1.5; }
+    a {
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+      width: 100%; padding: 17px 18px; margin: 14px 0; border-radius: 14px;
+      color: white; text-decoration: none; font-weight: 700; font-size: 17px;
+      transition: transform .15s ease, filter .15s ease;
+    }
+    a:hover { transform: translateY(-2px); filter: brightness(1.06); }
+    .wa { background: #16a34a; }
+    .fb { background: #1877f2; }
+    .icon { font-size: 23px; }
+    footer { margin-top: 24px; font-size: 12px; color: #9ca3af; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark">👋</div>
+    <h1>¡Contáctanos!</h1>
+    <p>Estamos para atenderte. Elige una de las siguientes opciones:</p>
+    <a class="wa" href="https://wa.me/527561064379" target="_blank" rel="noopener noreferrer">
+      <span class="icon">💬</span> CONTACTAR POR WHATSAPP
+    </a>
+    <a class="fb" href="https://www.facebook.com/share/1F2wxPAXF5/" target="_blank" rel="noopener noreferrer">
+      <span class="icon">f</span> VISITAR FACEBOOK
+    </a>
+    <footer>Gracias por tu preferencia</footer>
+  </main>
+</body>
+</html>
